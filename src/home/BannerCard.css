@@ -1,0 +1,70 @@
+
+.swiper {
+    width: 240px;
+    height: 320px;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .swiper-slide:nth-child(1n) {
+    /* background-color: rgb(206, 17, 17); */
+    /* background-image: url('../../public/image/book1.png'); */
+    background-image: url('../assets/banner-books/book1.png');
+  }
+  
+  .swiper-slide:nth-child(2n) {
+    /* background-color: rgb(0, 140, 255); */
+    background-image: url('../../public/image/book2.png');
+  }
+  
+  .swiper-slide:nth-child(3n) {
+    /* background-color: rgb(10, 184, 111); */
+    background-image: url('../../public/image/book3.png');
+  }
+  
+  .swiper-slide:nth-child(4n) {
+    /* background-color: rgb(211, 122, 7); */
+    background-image: url('../../public/image/book4.png');
+  }
+  
+  .swiper-slide:nth-child(5n) {
+    /* background-color: rgb(118, 163, 12); */
+    background-image: url('../../public/image/book5.png');
+  }
+  
+  .swiper-slide:nth-child(6n) {
+    /* background-color: rgb(180, 10, 47); */
+  }
+  
+  .swiper-slide:nth-child(7n) {
+    /* background-color: rgb(35, 99, 19); */
+  }
+  
+  .swiper-slide:nth-child(8n) {
+    /* background-color: rgb(0, 68, 255); */
+  }
+  
+  .swiper-slide:nth-child(9n) {
+    /* background-color: rgb(218, 12, 218); */
+  }
+  
+  .swiper-slide:nth-child(10n) {
+    /* background-color: rgb(54, 94, 77); */
+  }
+  
+  .blink_me {
+    animation: blinker 1s linear infinite;
+}
+  @keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}

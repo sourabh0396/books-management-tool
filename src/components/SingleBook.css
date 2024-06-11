@@ -1,0 +1,16 @@
+.book-card{
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    margin: 20px;
+}
+.imagestyle{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+.book-details{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
